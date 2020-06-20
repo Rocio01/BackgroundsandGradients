@@ -1,8 +1,6 @@
-# Project Name
+# Building with Backgrounds and Gradients
 
->
-Building with Backgrounds and Gradients
- This project is a clone of Apple page from web.archive.com completed based on the requirement to complete Microverse program/course titled "HTML and CSS".
+> This project is a clone of Apple page from web.archive.com completed based on the requirement to complete Microverse program/course titled "HTML and CSS".
 
 ![screenshot](./app_screenshot.png)
 
