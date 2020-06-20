@@ -1,6 +1,8 @@
 # Project Name
 
-> This project is a clone of Apple page from web.archive.com completed based on the requirement to complete Microverse program/course titled "HTML and CSS".
+>
+Building with Backgrounds and Gradients
+ This project is a clone of Apple page from web.archive.com completed based on the requirement to complete Microverse program/course titled "HTML and CSS".
 
 ![screenshot](./app_screenshot.png)
 
@@ -15,6 +17,8 @@ Align all elements with float and flex or grid.
 
 
 [Live Demo Link](https://rawcdn.githack.com/Rocio01/BackgroundsandGradients/05b846f75f0e801d88aac207870c251b5d46693b/index.html)
+
+
 [Github Repository Link](https://github.com/Rocio01/BackgroundsandGradients/tree/feature-branch)
 
 ## Getting Started
