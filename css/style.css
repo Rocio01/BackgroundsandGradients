@@ -158,8 +158,16 @@ footer p {
 .verse > p {
   font-size: 25.5px;
   font-weight: 200;
-  font-family: "Source sans pro","Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   margin-top: 20px;
+}
+
+.left p {
+  line-height: 2.5;
+  font-size: 12px;
+  letter-spacing: 0.15px;
+  color: #6e6e6e;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
 .nav-container div > p {
@@ -294,14 +302,6 @@ footer {
   margin-left: 190px;
 }
 
-.left p {
-  line-height: 2.5;
-  font-size: 12px;
-  letter-spacing: 0.15px;
-  color: #6e6e6e;
-  font-family: "Open Sans";
-}
-
 .left a {
   color: #00e;
 }
@@ -309,3 +309,4 @@ footer {
 footer a:hover {
   text-decoration: underline;
 }
+
