@@ -1,20 +1,21 @@
 # Project Name
 
-> This project is a clone of "New York Times Magazine" completed based on the requirement to complete Microverse program/course titled "HTML and CSS".
+> This project is a clone of Apple page from web.archive.com completed based on the requirement to complete Microverse program/course titled "HTML and CSS".
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This project consists of building a webpage using:
+Images as a background and adding gradients to elements. 
+Align all elements with float and flex or grid.
 
 ## Built With
 
 - HTML
-- CSS,
+- CSS
 
-## Live Demo pending approval....
 
-[Live Demo Link](https://livedemo.com)
-[Github Repository Link](https://github.com/Rocio01/PositioningandFloatingElements/tree/feature-branch)
+[Live Demo Link](https://rawcdn.githack.com/Rocio01/BackgroundsandGradients/05b846f75f0e801d88aac207870c251b5d46693b/index.html)
+[Github Repository Link](https://github.com/Rocio01/BackgroundsandGradients/tree/feature-branch)
 
 ## Getting Started
 
@@ -37,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
 👤 **Author1**
 
@@ -45,11 +46,7 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
 - Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8/)
 
-👤 **Author2**
 
-- Github: [@happiguru](https://github.com/happiguru)
-- Twitter: [@Lekunze_Nle](https://twitter.com/Lekunze_Nley)
-- Linkedin: [lekunze-nley](https://www.linkedin.com/in/lekunze-nley/)
 
 ## 🤝 Contributing
 
