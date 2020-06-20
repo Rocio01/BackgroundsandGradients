@@ -189,7 +189,7 @@ footer p {
   min-height: 36px;
 }
 
-form{
+form {
   display: flex;
   align-items: center;
 }
@@ -200,7 +200,6 @@ input {
 
 .last:hover {
   background: linear-gradient(to top, rgba(153, 153, 153, 1) 0%, rgba(85, 85, 85, 1) 50%, rgba(99, 99, 99, 1) 50%, rgba(153, 153, 153, 1) 100%);
-  /* cursor: text; */
 }
 
 .search-box {
