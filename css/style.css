@@ -147,7 +147,11 @@ nav div:hover {
   background: linear-gradient(to top, rgba(76, 76, 76, 1) 0%, rgba(76, 76, 76, 1) 50%, rgba(87, 87, 87, 1) 50%, rgba(76, 76, 76, 1) 100%);
 }
 
-.nav-container div>p {
+footer p {
+  color: black;
+}
+
+.nav-container div > p {
   padding: 0 0 7px 32px;
 }
 
@@ -211,13 +215,13 @@ section {
   min-height: 200px;
 }
 
-.text>p {
+.text > p {
   text-align: center;
 }
 
 .what {
   font-size: 65px;
-  font-family: "Source sans pro";
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   word-spacing: 5px;
   letter-spacing: -1px;
   font-weight: 200;
@@ -227,7 +231,7 @@ section {
 .watch {
   font-size: 30px;
   font-weight: 300;
-  font-family: "Source sans pro";
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
 }
 
 .verse {
@@ -240,14 +244,14 @@ section {
   color: rgb(255, 254, 253);
 }
 
-.verse>p {
+.verse > p {
   font-size: 25.5px;
   font-weight: 200;
-  font-family: "Source sans pro";
+  font-family: "Source sans pro","Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
   margin-top: 20px;
 }
 
-.verse>img {
+.verse > img {
   max-width: 25px;
   max-height: 25px;
   margin-top: 22px;
@@ -276,8 +280,8 @@ footer {
   line-height: 2.5;
   font-size: 12px;
   letter-spacing: 0.15px;
-  font-family: "Open Sans";
-  color: #0000ee;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
+  color: #00e;
 }
 
 .usa {
@@ -300,10 +304,6 @@ footer {
 
 .left a {
   color: #0000ee;
-}
-
-footer p {
-  color: black;
 }
 
 footer a:hover {
