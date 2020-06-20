@@ -151,6 +151,17 @@ footer p {
   color: black;
 }
 
+.text > p {
+  text-align: center;
+}
+
+.verse > p {
+  font-size: 25.5px;
+  font-weight: 200;
+  font-family: "Source sans pro","Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
+  margin-top: 20px;
+}
+
 .nav-container div > p {
   padding: 0 0 7px 32px;
 }
@@ -215,10 +226,6 @@ section {
   min-height: 200px;
 }
 
-.text > p {
-  text-align: center;
-}
-
 .what {
   font-size: 65px;
   font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
@@ -231,7 +238,7 @@ section {
 .watch {
   font-size: 30px;
   font-weight: 300;
-  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
 .verse {
@@ -242,13 +249,6 @@ section {
 .verse:hover {
   text-decoration: underline;
   color: rgb(255, 254, 253);
-}
-
-.verse > p {
-  font-size: 25.5px;
-  font-weight: 200;
-  font-family: "Source sans pro","Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
-  margin-top: 20px;
 }
 
 .verse > img {
@@ -280,7 +280,7 @@ footer {
   line-height: 2.5;
   font-size: 12px;
   letter-spacing: 0.15px;
-  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   color: #00e;
 }
 
@@ -303,7 +303,7 @@ footer {
 }
 
 .left a {
-  color: #0000ee;
+  color: #00e;
 }
 
 footer a:hover {
