@@ -225,7 +225,7 @@ input {
 }
 
 section {
-  margin-top: 570px;  
+  margin: 570px 0 0 0;
 }
 
 .s-container {
