@@ -104,8 +104,7 @@ main {
   width: 100vw;
   min-width: 1300px;
   min-height: 538px;
-  cursor: pointer;
-  
+  cursor: pointer;  
 }
 
 .main-text {
@@ -241,7 +240,7 @@ section {
   min-width: 100vw;
 }
 
-.image{
+.image {
   width: 25vw;
   min-height: 200px;
   min-width: 325px;
