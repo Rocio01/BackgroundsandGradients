@@ -96,16 +96,20 @@ video {
   box-sizing: border-box;
 }
 
-body {
+main {
   background-image: url(../images-apple/back.png);
   background-repeat: no-repeat;
-  min-width: 1349px;
-  min-height: 567px;
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  min-width: 1300px;
+  min-height: 538px;
   cursor: pointer;
+  
 }
 
-main {
-  margin-top: 115px;
+.main-text {
+  padding-top: 6%;
 }
 
 .none {
@@ -138,8 +142,7 @@ nav div {
   display: flex;
   align-items: center;
   min-width: 106px;
-  max-height: 36px;
-  max-width: 106px;
+  height: 40px;
   background: linear-gradient(to top, rgba(153, 153, 153, 1) 0%, rgba(85, 85, 85, 1) 50%, rgba(99, 99, 99, 1) 50%, rgba(153, 153, 153, 1) 100%);
   border: 1px solid grey;
 }
@@ -173,7 +176,10 @@ nav div:hover {
 }
 
 .nav-container div > a {
-  padding: 0 0 7px 32px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .first {
@@ -223,48 +229,50 @@ input {
   max-width: 14px;
   max-height: 14px;
   position: absolute;
-  margin: 3px 0 0 10px;
+  margin: 0 0 0 10px;
 }
 
 section {
-  margin: 147px 0 0 0;
+  margin: 0;
 }
 
 .s-container {
   display: flex;
-  min-width: 1349px;
+  min-width: 100vw;
+}
+
+.image{
+  width: 25vw;
+  min-height: 200px;
+  min-width: 325px;
 }
 
 .image1 {
   background-image: url(../images-apple/iPhone5s.png);
   background-repeat: no-repeat;
-  margin-left: 1px;
-  min-height: 200px;
-  min-width: 335.75px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .image2 {
   background-image: url(../images-apple/iPhone5.png);
   background-repeat: no-repeat;
-  margin-left: 1px;
-  min-height: 200px;
-  min-width: 335.75px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .image3 {
   background-image: url(../images-apple/HappyBirthday.png);
   background-repeat: no-repeat;
-  margin-left: 1px;
-  min-height: 200px;
-  min-width: 335.75px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .image4 {
   background-image: url(../images-apple/Supplier.png);
   background-repeat: no-repeat;
-  margin-left: 3px;
-  min-height: 200px;
-  min-width: 335.75px;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .text {
@@ -312,17 +320,19 @@ section {
 
 footer {
   min-height: 70px;
-  min-width: max-content;
-  justify-content: space-evenly;
-  position: relative;
+  min-width: 1000px;
   display: flex;
-  align-items: flex-start;
+  justify-content: space-evenly;
   margin: 20px 10px 10px 10px;
 }
 
 .right {
   display: flex;
-  min-width: max-content;
+  min-width: 500px;
+}
+
+.left {
+  min-width: 500px;
 }
 
 .usa {
@@ -332,7 +342,7 @@ footer {
 }
 
 footer p {
-  font-size: 9px;
+  font-size: 12px;
   line-height: 2.5;
   letter-spacing: 0.15px;
   color: #6e6e6e;
