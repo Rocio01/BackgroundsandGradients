@@ -14,7 +14,7 @@ Align all elements with float and flex or grid.
 - CSS
 
 
-[Live Demo Link](https://rawcdn.githack.com/Rocio01/BackgroundsandGradients/45a4007f702851039cdcc0e82e0ee526cd41d255/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Rocio01/BackgroundsandGradients/389dd129a8418c99bdd040631f4b119bfeaf8ec3/index.html)
 
 
 [Github Repository Link](https://github.com/Rocio01/BackgroundsandGradients/tree/feature-branch)
