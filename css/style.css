@@ -99,18 +99,17 @@ video {
 body {
   background-image: url(../images-apple/back.png);
   background-repeat: no-repeat;
-  min-width: 100vw;
-  max-height: 1472px;
-  margin-top: 0;
-  position: relative;
-  padding-top: 0;
+  min-width: 1349px;
+  min-height: 567px;
   cursor: pointer;
-  overflow-x: hidden;
 }
 
 main {
-  margin: 0;
-  position: relative;
+  margin-top: 115px;
+}
+
+.none{
+  display: none;
 }
 
 p {
@@ -122,12 +121,14 @@ p {
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-container {
   display: flex;
   border-radius: 10px;
-  margin-top: -450px;
-  margin-left: 200px;
-  position: absolute;
+  position: relative;
   padding-left: 0;
   align-items: center;
   justify-content: center;
@@ -151,26 +152,18 @@ footer p {
   color: black;
 }
 
-.text > p {
+.text > a {
   text-align: center;
 }
 
-.verse > p {
+.verse > a {
   font-size: 25.5px;
   font-weight: 200;
   font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   margin-top: 20px;
 }
 
-.left p {
-  line-height: 2.5;
-  font-size: 12px;
-  letter-spacing: 0.15px;
-  color: #6e6e6e;
-  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-}
-
-.nav-container div > p {
+.nav-container div > a {
   padding: 0 0 7px 32px;
 }
 
@@ -225,7 +218,7 @@ input {
 }
 
 section {
-  margin: 570px 0 0 0;
+  margin: 147px 0 0 0;
 }
 
 .s-container {
@@ -266,9 +259,7 @@ section {
 }
 
 .text {
-  position: absolute;
-  margin-top: -380px;
-  margin-left: 350px;
+  margin-top: 40px;
   min-width: 730px;
   min-height: 200px;
 }
@@ -278,13 +269,18 @@ section {
   font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   word-spacing: 5px;
   letter-spacing: -1px;
-  font-weight: 200;
+  font-weight: 100;
 }
 
-.everyone,
-.watch {
+.everyone {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 200;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+.watch {
+  font-size: 26px;
+  font-weight: 200;
   font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
@@ -293,7 +289,7 @@ section {
   justify-content: center;
 }
 
-.verse:hover {
+.watch:hover {
   text-decoration: underline;
   color: rgb(255, 254, 253);
 }
@@ -301,7 +297,7 @@ section {
 .verse > img {
   max-width: 25px;
   max-height: 25px;
-  margin-top: 22px;
+  margin-top: 33px;
   margin-left: 10px;
 }
 
@@ -318,17 +314,14 @@ footer {
 .right {
   display: flex;
   min-width: max-content;
-  margin-right: 500px;
-  margin-left: 100px;
 }
 
 .right a {
   text-decoration: none;
   line-height: 2.5;
-  font-size: 12px;
   letter-spacing: 0.15px;
   font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  color: #00e;
+  color: #0088cc;
 }
 
 .usa {
@@ -337,12 +330,17 @@ footer {
   margin: 15px 0 0 10px;
 }
 
-.left {
-  margin-left: 150px;
+.left a {
+  color: #0088cc;
+  text-decoration: none;
 }
 
-.left a {
-  color: #00e;
+footer p {
+  font-size: 9px;
+  line-height: 2.5;
+  letter-spacing: 0.15px;
+  color: #6e6e6e;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
 footer a:hover {
