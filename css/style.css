@@ -1,0 +1,357 @@
+/* css reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  vertical-align: baseline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  background-image: url(../images-apple/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  min-width: 1300px;
+  min-height: 538px;
+  cursor: pointer;
+}
+
+.main-text {
+  padding-top: 6%;
+}
+
+.none {
+  display: none;
+}
+
+p {
+  padding-left: 0;
+  color: white;
+  font-size: 12px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  min-width: 106px;
+  height: 40px;
+  background: linear-gradient(to top, rgba(153, 153, 153, 1) 0%, rgba(85, 85, 85, 1) 50%, rgba(99, 99, 99, 1) 50%, rgba(153, 153, 153, 1) 100%);
+  border: 1px solid grey;
+}
+
+nav div:hover {
+  background: linear-gradient(to top, rgba(76, 76, 76, 1) 0%, rgba(76, 76, 76, 1) 50%, rgba(87, 87, 87, 1) 50%, rgba(76, 76, 76, 1) 100%);
+}
+
+.text > a {
+  text-align: center;
+}
+
+.verse > a {
+  font-size: 25.5px;
+  font-weight: 200;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.right a {
+  text-decoration: none;
+  line-height: 2.5;
+  letter-spacing: 0.15px;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  color: #08c;
+}
+
+.left a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.nav-container div > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  display: flex;
+  justify-content: center;
+  min-height: 36px;
+}
+
+.last {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  min-width: 125px;
+  min-height: 36px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  max-width: 110px;
+}
+
+.last:hover {
+  background: linear-gradient(to top, rgba(153, 153, 153, 1) 0%, rgba(85, 85, 85, 1) 50%, rgba(99, 99, 99, 1) 50%, rgba(153, 153, 153, 1) 100%);
+}
+
+.search-box {
+  background: linear-gradient(to top, rgba(118, 118, 118, 1) 0%, rgba(110, 110, 110, 1) 50%, rgba(127, 127, 127, 1) 50%, rgba(136, 136, 136, 1) 100%);
+  position: relative;
+  border-radius: 12px;
+  box-shadow: inset 0.5px 0.8px 1px 0.2px #444, inset 0.5px -0.8px 0.2px 0.2px #888;
+  min-width: 110px;
+  max-height: 30px;
+  margin-left: 5px;
+}
+
+.apple {
+  max-width: 23px;
+  max-height: 23px;
+}
+
+.search {
+  max-width: 14px;
+  max-height: 14px;
+  position: absolute;
+  margin: 0 0 0 10px;
+}
+
+section {
+  margin: 0;
+}
+
+.s-container {
+  display: flex;
+  min-width: 100vw;
+}
+
+.image {
+  width: 25vw;
+  min-height: 200px;
+  min-width: 325px;
+}
+
+.image1 {
+  background-image: url(../images-apple/iPhone5s.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image2 {
+  background-image: url(../images-apple/iPhone5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image3 {
+  background-image: url(../images-apple/HappyBirthday.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image4 {
+  background-image: url(../images-apple/Supplier.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.text {
+  margin-top: 40px;
+  min-width: 730px;
+  min-height: 200px;
+}
+
+.what {
+  font-size: 65px;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  word-spacing: 5px;
+  letter-spacing: -1px;
+  font-weight: 100;
+}
+
+.everyone {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+.watch {
+  font-size: 26px;
+  font-weight: 200;
+  font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+.verse {
+  display: flex;
+  justify-content: center;
+}
+
+.watch:hover {
+  text-decoration: underline;
+  color: rgb(255, 254, 253);
+}
+
+.verse > img {
+  max-width: 25px;
+  max-height: 25px;
+  margin-top: 33px;
+  margin-left: 10px;
+}
+
+footer {
+  min-height: 70px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10px 10px 10px;
+}
+
+.right {
+  display: flex;
+  min-width: 500px;
+}
+
+.left {
+  min-width: 500px;
+}
+
+.usa {
+  max-width: 16px;
+  max-height: 16px;
+  margin: 15px 0 0 10px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 2.5;
+  letter-spacing: 0.15px;
+  color: #6e6e6e;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
