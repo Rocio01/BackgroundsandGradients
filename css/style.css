@@ -96,6 +96,10 @@ video {
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 main {
   background-image: url(../images-apple/back.png);
   background-repeat: no-repeat;
