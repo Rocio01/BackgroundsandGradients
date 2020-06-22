@@ -108,7 +108,7 @@ main {
   margin-top: 115px;
 }
 
-.none{
+.none {
   display: none;
 }
 
@@ -148,10 +148,6 @@ nav div:hover {
   background: linear-gradient(to top, rgba(76, 76, 76, 1) 0%, rgba(76, 76, 76, 1) 50%, rgba(87, 87, 87, 1) 50%, rgba(76, 76, 76, 1) 100%);
 }
 
-footer p {
-  color: black;
-}
-
 .text > a {
   text-align: center;
 }
@@ -161,6 +157,19 @@ footer p {
   font-weight: 200;
   font-family: "Source sans pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   margin-top: 20px;
+}
+
+.right a {
+  text-decoration: none;
+  line-height: 2.5;
+  letter-spacing: 0.15px;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  color: #0088cc;
+}
+
+.left a {
+  color: #08c;
+  text-decoration: none;
 }
 
 .nav-container div > a {
@@ -316,23 +325,10 @@ footer {
   min-width: max-content;
 }
 
-.right a {
-  text-decoration: none;
-  line-height: 2.5;
-  letter-spacing: 0.15px;
-  font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  color: #0088cc;
-}
-
 .usa {
   max-width: 16px;
   max-height: 16px;
   margin: 15px 0 0 10px;
-}
-
-.left a {
-  color: #0088cc;
-  text-decoration: none;
 }
 
 footer p {
